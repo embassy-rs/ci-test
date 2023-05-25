@@ -1,4 +1,4 @@
 #!/bin/bash
-## event push
+## on push
 
 echo Hello World!
