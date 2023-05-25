@@ -1,5 +1,5 @@
 #!/bin/bash
-## on push branch=main
+## on push branch=ma..
 ## on push branch~=gh-readonly-queue/main/.*
 
 set -euxo pipefail
