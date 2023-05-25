@@ -1,6 +1,6 @@
 #!/bin/bash
-## on push
-## on pull_request
+## on push branch=main
+## on push branch~=gh-readonly-queue/main/.*
 
 set -euxo pipefail
 
