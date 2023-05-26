@@ -5,6 +5,6 @@
 
 set -euxo pipefail
 
-echo Hello lol
+echo Hello lollol
 
 for i in $(seq 0 100); do echo $i; sleep 1; done
