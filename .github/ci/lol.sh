@@ -9,4 +9,4 @@ echo Hello World!
 echo Hello World!
 echo Hello World!
 echo Hello World!
-exit 1
+for i in $(seq 0 100); do echo $i; sleep 1; done
