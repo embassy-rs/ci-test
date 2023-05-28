@@ -9,4 +9,4 @@ echo Hello World
 
 curl -v https://api.github.com
 
-#for i in $(seq 0 100000); do echo $i; sleep 1; done
+for i in $(seq 0 100000); do echo $i; sleep 1; done
