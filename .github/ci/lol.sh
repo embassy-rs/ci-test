@@ -14,3 +14,5 @@ if [ -f /ci/cache/wtf.txt ]; then
 fi
 
 echo wtf > /ci/cache/wtf.txt
+
+exit 1
