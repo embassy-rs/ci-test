@@ -7,5 +7,10 @@ set -x
 
 echo Hello World
 
-cat cache/wtf.txt
-echo wtf > cache/wtf.txt
+ls -lah /ci/cache
+
+if [ -f /ci/cache/wtf.txt ]; do 
+    cat /ci/cache/wtf.txt
+fi
+
+echo wtf > /ci/cache/wtf.txt
