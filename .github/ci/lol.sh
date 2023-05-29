@@ -9,7 +9,7 @@ echo Hello World
 
 ls -lah /ci/cache
 
-if [ -f /ci/cache/wtf.txt ]; do 
+if [ -f /ci/cache/wtf.txt ]; then
     cat /ci/cache/wtf.txt
 fi
 
