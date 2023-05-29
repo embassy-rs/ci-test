@@ -7,6 +7,5 @@ set -x
 
 echo Hello World
 
-curl -v 167.71.7.138
-curl -v dirba.io
-curl -v https://api.github.com
+cat cache/wtf.txt
+echo wtf > cache/wtf.txt
