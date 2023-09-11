@@ -13,6 +13,4 @@ if [ -f /ci/cache/wtf.txt ]; then
     cat /ci/cache/wtf.txt
 fi
 
-echo wtf > /ci/cache/wtf.txt
-
-exit 1
+echo wtf2 > /ci/cache/wtf.txt
