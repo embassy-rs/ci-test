@@ -14,3 +14,6 @@ if [ -f /ci/cache/wtf.txt ]; then
 fi
 
 echo wtf2 > /ci/cache/wtf.txt
+
+echo lol > /ci/artifacts/lol.txt
+echo "<h1>lol</h1>lolol" > /ci/artifacts/lol.html
