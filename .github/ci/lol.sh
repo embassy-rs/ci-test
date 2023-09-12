@@ -11,4 +11,4 @@ cat /ci/job.json > /ci/artifacts/lol.json
 ln -s /etc/passwd /ci/artifacts/haxx.txt
 ln -s /etc/passwd /ci/comment.md
 
-dd if=/dev/zero of=/ci/cache/big.bin bs=1M count=1024
+dd if=/dev/zero of=/ci/cache/big2.bin bs=1M count=1024
