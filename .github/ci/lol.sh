@@ -10,3 +10,5 @@ set -euo pipefail
 cat /ci/job.json > /ci/artifacts/lol.json
 ln -s /etc/passwd /ci/artifacts/haxx.txt
 ln -s /etc/passwd /ci/comment.md
+
+dd if=/dev/zero of=/ci/cache/big.bin bs=1M count=1024
