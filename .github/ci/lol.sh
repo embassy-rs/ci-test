@@ -8,6 +8,7 @@
 
 set -euo pipefail
 
-echo sleeping
-sleep 10000
-echo sleep done
+for i in $(seq 1 1000); do
+    echo $i
+    sleep 1
+done
